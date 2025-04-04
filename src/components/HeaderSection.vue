@@ -14,10 +14,10 @@
 
 <script setup>
 const menuItems = [
-  { label: 'Accueil', href: '#' },
-  { label: 'Nouveautés', href: '#' },
-  { label: 'Homme', href: '#' },
-  { label: 'Femme', href: '#' },
-  { label: 'Contact', href: '#' },
+  { label: 'Accueil', href: '/' },
+  { label: 'Nouveautés', href: '/category' },
+  { label: 'Homme', href: '/category' },
+  { label: 'Femme', href: '/category' },
+  { label: 'Contact', href: '/contact' },
 ]
 </script>
