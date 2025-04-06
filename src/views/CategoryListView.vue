@@ -7,7 +7,7 @@
             <!-- Liste des produits -->
             <section class="flex-1">
                 <h2 class="text-xl font-semibold mb-6">Chaussures pour Homme</h2>
-                <ProductList />
+                <ProductList :products="filteredProducts" />
             </section>
         </div>
     </main>
@@ -21,9 +21,6 @@ import ProductFilters from '@/components/product/ProductFilters.vue';
 
 const route = useRoute();
 const categoryParam = computed(() => route.query.category || '');
-const categoryTitle = computed(() => {
-    return categoryParam.value ? categoryParam.value : 'Tous les produits';
-});
 
 const products = ref([
     {

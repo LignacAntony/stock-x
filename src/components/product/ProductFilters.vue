@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import GenreFilter from './product/filters/GenreFilter.vue';
-import PriceFilter from './product/filters/PriceFilter.vue';
-import SizeFilter from './product/filters/SizeFilter.vue';
+import GenreFilter from './filters/GenreFilter.vue';
+import PriceFilter from './filters/PriceFilter.vue';
+import SizeFilter from './filters/SizeFilter.vue';
 </script>
