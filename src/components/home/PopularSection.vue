@@ -13,13 +13,6 @@
 <script setup>
 import ProductCard from './ProductCard.vue';
 
-// const products = ref([]);
-// fetch('https://fakestoreapi.com/products')
-//   .then(response => response.json())
-//   .then(data => {
-//     products.value = data;
-//   });
-
 const products = [
   {
     title: 'Manteau',

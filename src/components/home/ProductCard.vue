@@ -5,7 +5,7 @@
       <div class="p-4">
         <h4 class="font-semibold text-lg">{{ props.product.title }}</h4>
         <span class="text-gray-600 text-sm font-bold bg-green-100 px-2 py-1 rounded-full">{{ props.product.category
-          }}</span>
+        }}</span>
         <p class="text-gray-600">{{ props.product.description.slice(0, 100) }}...</p>
         <p class="font-bold mt-2">{{ props.product.price }} €</p>
       </div>
@@ -30,10 +30,7 @@ const props = defineProps({
       type: String,
       required: true
     },
-    description: {
-      type: String,
-      required: true
-    },
+    description: String,
     price: {
       type: Number,
       required: true

@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CounterView from '../views/CounterView.vue'
 import ProductView from '../views/ProductView.vue'
 import CategoryView from '../views/CategoryView.vue'
-import CategoryFilterView from '../views/CategoryFilterView.vue'
+import CategoryListView from '../views/CategoryListView.vue'
 import CheckoutView from '../views/CheckoutView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,9 +29,9 @@ const router = createRouter({
       component: CategoryView,
     },
     {
-      path: '/category-filter',
-      name: 'category-filter',
-      component: CategoryFilterView,
+      path: '/category/:id/list',
+      name: 'category_list',
+      component: CategoryListView,
     },
     {
       path: '/checkout',

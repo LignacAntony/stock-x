@@ -15,9 +15,7 @@
 <script setup>
 const menuItems = [
   { label: 'Accueil', href: '/' },
-  { label: 'Nouveautés', href: '/category' },
-  { label: 'Homme', href: '/category' },
-  { label: 'Femme', href: '/category' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Categories', href: '/category' },
+  { label: 'Checkout', href: '/checkout' },
 ]
 </script>
